@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fritocops – Le goût du vrai</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-red-600 font-sans">
+  <header class="bg-red-600 text-white text-center py-10">
+    <h1 class="text-4xl font-bold">Les Cops – Le goût du vrai !</h1>
+    <p class="mt-4 text-lg">Des produits sains, savoureux et 100% camerounais 🇨🇲</p>
+  </header>
+
+  <section class="py-10 text-center">
+    <h2 class="text-2xl font-semibold mb-6">Nos Produits</h2>
+    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
+      <div class="bg-white border shadow p-4 rounded">
+        <img src="images/popcorn.png" alt="Popcorn sucré" class="w-full h-48 object-cover mb-2" />
+        <p class="font-semibold">Popcorn sucré</p>
+      </div>
+      <div class="bg-white border shadow p-4 rounded">
+        <img src="images/peanuts.png" alt="Cacahuètes grillées" class="w-full h-48 object-cover mb-2" />
+        <p class="font-semibold">Cacahuètes grillées</p>
+      </div>
+      <div class="bg-white border shadow p-4 rounded">
+        <img src="images/chips.png" alt="Chips de plantain" class="w-full h-48 object-cover mb-2" />
+        <p class="font-semibold">Chips de plantain</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-red-600 text-white text-center py-10">
+    <h2 class="text-2xl font-bold mb-4">Contact</h2>
+    <p>📞 WhatsApp : +352691661414</p>
+    <p>📧 Email : contact@fritocops.com</p>
+    <p>🔗 Facebook : Les Cops</p>
+    <form action="https://formspree.io/f/moqgjvkp" method="POST" class="mt-6 max-w-md mx-auto grid gap-4 text-left">
+      <input type="text" name="name" placeholder="Nom" required class="w-full p-3 rounded text-red-700 border"/>
+      <input type="email" name="email" placeholder="Email" required class="w-full p-3 rounded text-red-700 border"/>
+      <textarea name="message" placeholder="Message" rows="4" required class="w-full p-3 rounded text-red-700 border"></textarea>
+      <button type="submit" class="bg-white text-red-600 font-bold py-2 rounded">Envoyer</button>
+    </form>
+  </section>
+
+  <footer class="text-center text-sm py-4 text-red-600 border-t">
+    © 2025 Fritocops Foods. Tous droits réservés.
+  </footer>
+</body>
+</html>
